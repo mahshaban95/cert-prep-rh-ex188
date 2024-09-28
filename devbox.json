@@ -1,4 +1,4 @@
-git{
+{
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.1/.schema/devbox.schema.json",
   "packages": [
     "podman@5.2.2",
