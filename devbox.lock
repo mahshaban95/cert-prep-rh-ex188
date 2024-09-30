@@ -1,6 +1,62 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "fuse-overlayfs@1.14": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#fuse-overlayfs",
+      "source": "devbox-search",
+      "version": "1.14",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4qx6nkqgj961p086nv9hgj2psv1aghjy-fuse-overlayfs-1.14",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/4qx6nkqgj961p086nv9hgj2psv1aghjy-fuse-overlayfs-1.14"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3dfqcg3vay8lh1iwjb19dx1q8gpjgq86-fuse-overlayfs-1.14",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3dfqcg3vay8lh1iwjb19dx1q8gpjgq86-fuse-overlayfs-1.14"
+        }
+      }
+    },
+    "fuse@4.8.0": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#fuse",
+      "source": "devbox-search",
+      "version": "4.8.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hc68npcl98dmsxcz3z7hakygmc51iy4y-macfuse-stubs-4.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hc68npcl98dmsxcz3z7hakygmc51iy4y-macfuse-stubs-4.8.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vkj60kn2sxd881qzdq0d0wzfac6f9279-macfuse-stubs-4.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vkj60kn2sxd881qzdq0d0wzfac6f9279-macfuse-stubs-4.8.0"
+        }
+      }
+    },
     "gh@2.57.0": {
       "last_modified": "2024-09-17T14:38:52Z",
       "resolved": "github:NixOS/nixpkgs/658e7223191d2598641d50ee4e898126768fe847#gh",
