@@ -2,16 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.1/.schema/devbox.schema.json",
   "packages": [
     "podman@5.2.2",
-    "gh@2.57.0",
-    "fuse-overlayfs@1.14",
-    "fuse@4.8.0"
+    "gh@2.57.0"
   ],
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null",
-      "sudo mkdir -p /etc/containers",
-      "sudo cp ./devbox-configs/policy.json /etc/containers/policy.json ",
-      "sudo cp ./devbox-configs/registries.conf /etc/containers/registries.conf"
+      "echo 'Welcome to devbox!' > /dev/null"
     ],
     "scripts": {
       "test": [
