@@ -1,0 +1,5 @@
+# Needs authentication to the Red Hat registry
+FROM registry.redhat.io/ubi9/ubi
+# Needs Red Hat system registrtaion (alternatively, you can just use CentOS or RockyLinux)
+RUN dnf install -y nmap
+CMD echo hello world
