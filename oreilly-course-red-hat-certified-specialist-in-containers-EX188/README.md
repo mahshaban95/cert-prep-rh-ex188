@@ -16,6 +16,6 @@ The course is organized in 10 lessons. For each lesson, I will created a separat
 - Lesson 1: Why use Containers `./lesson-01-why-use-containers.md`
 - Lesson 2: Working with podman `./lesson-02-working-with-podman.md`
 - Lesson 3: Container Images `./lesson-03-container-images.md`
-- Lesson 4: Creating Custom Container Images
+- Lesson 4: Creating Custom Container Images `lesson-04-creating-custom-container-images.md`
 - Lesson 5: Configuring Persistent Storage
 - etc
